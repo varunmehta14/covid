@@ -32,7 +32,7 @@ class ChartsPage extends React.Component {
           labels: [ covidData[4].country_name,covidData[3].country_name , covidData[2].country_name, covidData[1].country_name, covidData[0].country_name],
           datasets: [
             {
-              label: "Number of Active Cases",
+              label: "Number of Active Cases",//replace , global meaning more than occurrence by " "
               data: [parseInt(covidData[4].active_cases.replace(/,/g, '')),parseInt(covidData[3].active_cases.replace(/,/g, '')), parseInt(covidData[2].active_cases.replace(/,/g, '')), parseInt(covidData[1].active_cases.replace(/,/g, '')), parseInt(covidData[0].active_cases.replace(/,/g, ''))],
               backgroundColor: [
                 "rgba(255, 134,159,0.4)",

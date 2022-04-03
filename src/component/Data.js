@@ -51,7 +51,7 @@ const info={
         rows:
             covidData.map((data,index)=>{
           return { 
-            number:index,
+            number:index+1,
             Country_Name:data.country_name,
             Recoveries:data.total_recovered,
             Total_cases:data.cases, 
