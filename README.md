@@ -1,3 +1,7 @@
+![ss1](https://github.com/varunmehta14/covid/blob/master/src/screenshots/covid-1.png)
+![ss2](https://github.com/varunmehta14/covid/blob/master/src/screenshots/covid-2.png)
+![ss3](https://github.com/varunmehta14/covid/blob/master/src/screenshots/covid-3.png)
+
 # covid_tracker
 An website showing covid cases all over the world in tabular and graphical form
 
